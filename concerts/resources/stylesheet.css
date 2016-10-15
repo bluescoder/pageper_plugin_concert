@@ -1,0 +1,86 @@
+div.concert-section-title-div {
+	margin-top: 35px;
+	border-bottom: 1px solid grey;
+}
+
+h5.concert-section-title {
+	color: grey;
+}
+
+div.mg-top-1 {
+	margin-top: 20px;
+}
+
+div.mg-bottom-1 {
+	margin-bottom: 20px;
+}
+
+input {
+	width: 100%;
+	border-radius: 2px;
+	border: 1px solid #939393;
+	padding: 2px;
+	font-size: 12px;
+}
+
+input:HOVER {
+	border-color: #e08900;
+}
+
+div.concert-line {
+	margin-top: 2px;
+	padding: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+div.back-primary {
+	 background-color: #efefef;
+}
+
+div.back-secondary {
+	 background-color: #e0e0e0;
+}
+
+#new-concert-dialog {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  transition: 0.5s;
+  background-color: rgba(245, 245, 245,0.75);
+}
+
+.hide-block {
+  display: none;
+}
+
+.show-block{
+  display: block;
+}
+
+#new-concert-box {
+  width: 750px;
+  margin: auto;
+  background-color: #f1f1f1;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: relative;
+  top: 12%;
+  text-align: left;
+  padding: 20px;
+}
+
+p.error {
+	color: red;
+	text-align: center;
+}
+
+p.concert-field {
+	font-size: 12px;
+}
+
